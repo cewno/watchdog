@@ -6,7 +6,7 @@
         <PackageId>cewno.watchdog</PackageId>
         <Title>watchdog</Title>
         <Authors>cewno</Authors>
-        <Version>1.0.0</Version>
+        <Version>1.1.0</Version>
         <Company>cewno</Company>
         <Product>cewno.watchdog</Product>
         <Description>Watchdog
@@ -19,8 +19,8 @@
         <PackageProjectUrl>https://github.com/cewno/watchdog</PackageProjectUrl>
         <RepositoryUrl>https://github.com/cewno/watchdog</RepositoryUrl>
         <TargetFrameworks>net8.0;net6.0</TargetFrameworks>
-        <AssemblyVersion>1.0.0</AssemblyVersion>
-        <FileVersion>1.0.0</FileVersion>
+        <AssemblyVersion>1.1.0</AssemblyVersion>
+        <FileVersion>1.1.0</FileVersion>
         <GenerateDocumentationFile>True</GenerateDocumentationFile>
     </PropertyGroup>
 
