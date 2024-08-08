@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <PackageId>cewno.watchdog</PackageId>
+        <Title>watchdog</Title>
+        <Authors>cewno</Authors>
+        <Version>1.0.0</Version>
+        <Company>cewno</Company>
+        <Product>cewno.watchdog</Product>
+        <Description>Watchdog
+看门狗</Description>
+        <PackageReadmeFile></PackageReadmeFile>
+        <RepositoryType>git</RepositoryType>
+        <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+        <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+        <Copyright>Copyright 2024 cewno    https://github.com/cewno https://cewno.top</Copyright>
+        <PackageProjectUrl>https://github.com/cewno/watchdog</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/cewno/watchdog</RepositoryUrl>
+        <TargetFrameworks>net8.0;net6.0</TargetFrameworks>
+        <AssemblyVersion>1.0.0</AssemblyVersion>
+        <FileVersion>1.0.0</FileVersion>
+        <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <None Include="..\LICENSE.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>
