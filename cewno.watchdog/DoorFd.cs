@@ -34,7 +34,7 @@ public class WatchFd : WatchFdAbstract
 	/// <summary>
 	/// 超时时间
 	/// </summary>
-	private readonly long _outTimeLength;
+	private long _outTimeLength;
 	/// <summary>
 	/// 超时时运行的任务
 	/// </summary>
@@ -46,6 +46,14 @@ public class WatchFd : WatchFdAbstract
 	public void Reset()
 	{
 		time = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() + _outTimeLength;
+	}
+	/// <summary>
+	/// 重置时间（喂狗）
+	/// </summary>
+	public void Reset(int outTimeLength)
+	{
+		time = DateTimeOffset.UtcNow.ToUnixTimeMilliseconds() + outTimeLength;
+		_outTimeLength = outTimeLength;
 	}
 	/// <summary>
 	/// 超时时运行的方法
